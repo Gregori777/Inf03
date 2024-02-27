@@ -1,0 +1,15 @@
+Kwerenda 1:
+INSERT INTO `ratownicy`(`id`, `nrKaretki`, `ratownik1`, `ratownik2`, `ratownik3`) VALUES ('','20','Adam Nowak','Jan Kowalski','Anna Nowakowska')
+
+Kwerenda 2:
+SELECT id, adres, ratownicy_id FROM `zgloszenia` WHERE dyspozytorzy_id LIKE '4'
+
+Kwerenda 3:
+CREATE USER 'adam'@'localhost' IDENTIFIED BY 'Adam6&';
+
+Kwerenda 4:
+GRANT INSERT, DELETE, UPDATE ON ee09.* TO 'adam'@'localhost'
+
+
+
+
